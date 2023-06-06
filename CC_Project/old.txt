@@ -1,0 +1,222 @@
+﻿ // char[] Check;
+        //string[] Check;
+        string data;
+      //  string[] arr;
+      //  ArrayList Check = new ArrayList();
+        public string ExpressionCheck(string val)
+        {
+            
+            string op = "+-/*";
+            data = val;
+            char[] CheckOp = op.ToCharArray();
+          //  Check = val.ToCharArray();
+            //arr = val.Split(CheckOp,val.Length);
+
+            List<string> Check = new List<string>();
+            List<string> temp = new List<string>();
+
+            string var = "";
+
+
+            foreach (char item in val)
+            {
+
+                if (item == '+')
+                {
+                    Check.Add(var);
+                    Check.Add("+");
+                    var = "";
+
+                }
+                else
+                    if (item == '-')
+                    {
+                        Check.Add(var);
+                        Check.Add("-");
+                        var = "";
+
+                    }
+                    else
+                        if (item == '*')
+                        {
+                            Check.Add(var);
+                            Check.Add("*");
+                            var = "";
+
+                        }
+                        else
+                        {
+                            var = var + item;
+                        }
+
+
+            }
+
+            Check.Add(var);
+
+            for (int i = 0; i < Check.Count; i++)
+            {
+                temp.Add(Check[i]);
+                //Console.WriteLine(arr[i]);
+            }
+
+
+
+
+
+
+
+
+
+         
+            //for (int i = 0; i < Check.Length; i++)
+            //{
+            //    for (int i2 = 0; i2 < CheckOp.Length; i2++)
+            //    {
+            //        if (CheckOp[i2] == Check[i])
+            //        {
+                      
+            //            val = "";
+
+            //            val = " MOV eax," + arr[0] +  "\n" + "ADD eax, " + arr[1] + "\n CALL WriteInt ";
+
+            //        }
+                  
+            //    }
+
+            //}
+
+
+            bool precedenceCheck = false;
+            if (data.LastIndexOf('*') >2 || data.LastIndexOf('/')>2)
+            {
+                precedenceCheck = true;
+            }
+
+            if (precedenceCheck == true)
+            {
+                //val = "MOV eax," + Check[0];
+                val = "";
+                while (temp.Count!=0)
+                {
+                    if (data.Contains("*") == true)
+                    {
+                        if (data.IndexOf('*') < 2)
+                        {
+                            val = val + "\nMOV eax," + Check[Check.IndexOf("*") - 1] + "\nMOV ebx," + Check[Check.IndexOf("*") + 1] + "\nMUL ebx";
+
+                            temp.RemoveAt(temp.LastIndexOf("*") + 1);
+                            temp.RemoveAt(temp.LastIndexOf("*") - 1);
+                            temp.RemoveAt(temp.LastIndexOf("*"));
+
+                        }
+
+                        if (data.LastIndexOf('*') > 2)
+                        {
+                            val = val + "\nMOV edx," + Check[Check.LastIndexOf("*") + 1] + "\nMUL edx";
+
+                        }
+                        //else
+                        //{
+                        //      val = val +  "\nMOV edx," + Check[data.LastIndexOf('*') + 1] + "\nMUL edx";
+
+                        //}
+
+                    }
+
+                    if (data.Contains("/") == true)
+                    {
+                        if (data.IndexOf('/') < 2)
+                        {
+                            val = val + "\nMOV eax," + Check[Check.IndexOf("/") - 1] + "\nMOV ebx," + Check[Check.IndexOf("/") + 1] + "\nDIV ebx,";
+                            temp.RemoveAt(temp.LastIndexOf("/") + 1);
+                            temp.RemoveAt(temp.LastIndexOf("/") - 1);
+                            temp.RemoveAt(temp.LastIndexOf("/"));
+                        }
+
+                        if (data.LastIndexOf('/') > 2)
+                        {
+                            val = val + "\nMOV edx," + Check[Check.LastIndexOf("/") + 1] + "\nDIV edx";
+
+                        }
+
+
+                        // val = val + "\nDIV ebx," + Check[data.IndexOf('/') + 1];
+                    }
+                    if (data.Contains("+") == true)
+                    {
+                        val = val + "\nADD ebx, " + Check[Check.IndexOf("+") - 1];
+                        temp.RemoveAt(temp.IndexOf("+") - 1);
+                        temp.RemoveAt(temp.IndexOf("+"));
+                    }
+                    if (data.Contains("-") == true)
+                    {
+                        val = val + "\nSUB ebx," + Check[Check.IndexOf("-") + 1];
+                        temp.RemoveAt(temp.IndexOf("-") - 1);
+                        temp.RemoveAt(temp.IndexOf("-"));
+                    }
+                    
+                
+                }
+             
+                
+                  
+
+                
+            }
+            else
+            {
+                if (!data.Contains('*') || !data.Contains('/'))
+                {
+                    val = "MOV eax," + Check[0];
+                }
+
+                for (int i = 0; i < Check.Count; i++)
+                {
+                    if (Check.Count <= 3)
+                    {
+
+                        // && !data.Contains('*')|| !data.Contains('/')
+                        if (Check[i].ToString() == "+")
+                        {
+
+                            //if (data.LastIndexOf('+')>2 )
+                            //{
+                            //    val = val + "\nADD eax, " + Check[data.LastIndexOf('+') + 1];
+                            //}
+                            //if(data.IndexOf('+')<2)
+                            //{
+                            //    val = val + "\nADD eax, " + Check[data.IndexOf('+') + 1];
+
+                            //}
+
+                            val = val + "\nADD eax, " + Check[data.IndexOf('+') + 1];
+                        }
+                        if (Check[i].ToString() == "-")
+                        {
+                            val = val + "\nSUB eax," + Check[data.IndexOf('-') + 1];
+                        }
+
+                        //if (Check[i].ToString() == "*")
+                        //{
+                        //    val = val + "\nMUL," + Check[data.IndexOf('*') + 1];
+                        //}
+
+                        //if (Check[i].ToString() == "/")
+                        //{
+                        //    val = val + "\nMOV ebx," + Check[data.IndexOf('/') + 1] + "\nDIV ebx,";
+
+                        //    // val = val + "\nDIV ebx," + Check[data.IndexOf('/') + 1];
+                        //}
+                    }
+
+
+                }
+
+
+            }
+
+            val = val + "\nCALL WriteInt ";
+            return val;
+        }
+

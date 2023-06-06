@@ -1,0 +1,54 @@
+c:\users\mzh\documents\visual studio 2010\Projects\CC_Project\CC_Project\bin\Debug\CC_Project.exe
+c:\users\mzh\documents\visual studio 2010\Projects\CC_Project\CC_Project\bin\Debug\CC_Project.pdb
+c:\users\mzh\documents\visual studio 2010\Projects\CC_Project\CC_Project\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\mzh\documents\visual studio 2010\Projects\CC_Project\CC_Project\obj\x86\Debug\CC_Project.Form1.resources
+c:\users\mzh\documents\visual studio 2010\Projects\CC_Project\CC_Project\obj\x86\Debug\CC_Project.Properties.Resources.resources
+c:\users\mzh\documents\visual studio 2010\Projects\CC_Project\CC_Project\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\mzh\documents\visual studio 2010\Projects\CC_Project\CC_Project\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\mzh\documents\visual studio 2010\Projects\CC_Project\CC_Project\obj\x86\Debug\CC_Project.exe
+c:\users\mzh\documents\visual studio 2010\Projects\CC_Project\CC_Project\obj\x86\Debug\CC_Project.pdb
+C:\Users\6176\Desktop\CC_Project\CC_Project\obj\x86\Debug\CC_Project.pdb
+C:\Users\6176\Desktop\CC_Project\CC_Project\bin\Debug\CC_Project.exe
+C:\Users\6176\Desktop\CC_Project\CC_Project\bin\Debug\CC_Project.pdb
+C:\Users\6176\Desktop\CC_Project\CC_Project\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\6176\Desktop\CC_Project\CC_Project\obj\x86\Debug\CC_Project.Form1.resources
+C:\Users\6176\Desktop\CC_Project\CC_Project\obj\x86\Debug\CC_Project.Properties.Resources.resources
+C:\Users\6176\Desktop\CC_Project\CC_Project\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\6176\Desktop\CC_Project\CC_Project\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\6176\Desktop\CC_Project\CC_Project\obj\x86\Debug\CC_Project.exe
+C:\Users\6176\Desktop\CC_ProjectFinal\CC_Project\obj\x86\Debug\CC_Project.pdb
+C:\Users\6176\Desktop\CC_ProjectFinal\CC_Project\bin\Debug\CC_Project.exe
+C:\Users\6176\Desktop\CC_ProjectFinal\CC_Project\bin\Debug\CC_Project.pdb
+C:\Users\6176\Desktop\CC_ProjectFinal\CC_Project\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\6176\Desktop\CC_ProjectFinal\CC_Project\obj\x86\Debug\CC_Project.Form1.resources
+C:\Users\6176\Desktop\CC_ProjectFinal\CC_Project\obj\x86\Debug\CC_Project.Properties.Resources.resources
+C:\Users\6176\Desktop\CC_ProjectFinal\CC_Project\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\6176\Desktop\CC_ProjectFinal\CC_Project\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\6176\Desktop\CC_ProjectFinal\CC_Project\obj\x86\Debug\CC_Project.exe
+C:\Users\6176\Desktop\doc\CC_Project\obj\x86\Debug\CC_Project.exe
+C:\Users\6176\Desktop\doc\CC_Project\obj\x86\Debug\CC_Project.pdb
+C:\Users\6176\Desktop\doc\CC_Project\bin\Debug\CC_Project.exe
+C:\Users\6176\Desktop\doc\CC_Project\bin\Debug\CC_Project.pdb
+C:\Users\6176\Desktop\doc\CC_Project\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\6176\Desktop\doc\CC_Project\obj\x86\Debug\CC_Project.Form1.resources
+C:\Users\6176\Desktop\doc\CC_Project\obj\x86\Debug\CC_Project.Properties.Resources.resources
+C:\Users\6176\Desktop\doc\CC_Project\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\6176\Desktop\doc\CC_Project\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\University Stuff\CC\CC Project\6176\CC_Project\obj\x86\Debug\CC_Project.exe
+E:\University Stuff\CC\CC Project\6176\CC_Project\obj\x86\Debug\CC_Project.pdb
+E:\University Stuff\CC\CC Project\6176\CC_Project\bin\Debug\CC_Project.exe
+E:\University Stuff\CC\CC Project\6176\CC_Project\bin\Debug\CC_Project.pdb
+E:\University Stuff\CC\CC Project\6176\CC_Project\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\University Stuff\CC\CC Project\6176\CC_Project\obj\x86\Debug\CC_Project.Form1.resources
+E:\University Stuff\CC\CC Project\6176\CC_Project\obj\x86\Debug\CC_Project.Properties.Resources.resources
+E:\University Stuff\CC\CC Project\6176\CC_Project\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\University Stuff\CC\CC Project\6176\CC_Project\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\University Stuff\Machine\CC\CC Project\6176\CC_Project\obj\x86\Debug\CC_Project.exe
+E:\University Stuff\Machine\CC\CC Project\6176\CC_Project\obj\x86\Debug\CC_Project.pdb
+E:\University Stuff\Machine\CC\CC Project\6176\CC_Project\bin\Debug\CC_Project.exe
+E:\University Stuff\Machine\CC\CC Project\6176\CC_Project\bin\Debug\CC_Project.pdb
+E:\University Stuff\Machine\CC\CC Project\6176\CC_Project\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\University Stuff\Machine\CC\CC Project\6176\CC_Project\obj\x86\Debug\CC_Project.Form1.resources
+E:\University Stuff\Machine\CC\CC Project\6176\CC_Project\obj\x86\Debug\CC_Project.Properties.Resources.resources
+E:\University Stuff\Machine\CC\CC Project\6176\CC_Project\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\University Stuff\Machine\CC\CC Project\6176\CC_Project\obj\x86\Debug\GenerateResource.write.1.tlog
